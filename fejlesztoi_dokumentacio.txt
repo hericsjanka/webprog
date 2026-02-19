@@ -1,0 +1,107 @@
+fejlesztői dokumentáció
+
+Téma:       Quentin Tarantino bemutatása
+Technológia: HTML5, CSS3
+Fájlok:
+  - Quentin.html          
+  - filmek.html        
+  - galeria.html         
+  - quentin.css          
+  - képek/            
+
+pojektfeladat/
+├── Quentin.html
+├── filmek.html
+├── galeria.html
+├── quentin.css
+├── moodboard.txt
+├── kepforrasok.txt
+├── tartalom_forrasok.txt
+├── webtarhely_lista.txt
+├── felhasznaloi_dokumentacio.txt
+├── fejlesztoi_dokumentacio.txt
+└── képek/
+    ├── django.jpg
+    ├── killbill.jpg
+    ├── becstelenbrigantyk.jpg
+    ├── kutyaszoritoban.jpg
+    ├── aljasnyolcas.webp
+    └── voltegyszeregyhollywood.jpg
+
+html szerkezet
+
+Mindhárom oldal azonos grid-alapú struktúrát követ:
+
+  <div class="grid">
+    <header>   – oldal fejléce, h1 cím
+    <nav>      – navigációs sáv, legördülő menüvel
+    <main>     – fő tartalom
+    <footer>   – lábléc, készítő neve és dátum
+  </div>
+
+Felhasznált HTML elemek:
+  - Címsorok:          h1, h2, h3
+  - Bekezdések:        p
+  - Vízszintes vonal:  hr
+  - Kép:               img (szöveg közé beágyazva)
+  - Külső tartalom:    iframe (YouTube videó)
+  - Lista:             ul / li (többszintes, összetett)
+  - Táblázat:          table / tr / th / td (rowspan-nal)
+  - Linkek:            a (alosztályokkal: hover, visited, active)
+  - Legördülő menü:    ul.submenu (CSS hover-rel megjelenítve)
+
+Css
+
+--- VÁLTOZÓK (:root) ---
+  --red-dark:    #5a0f14   (header gradient, bal)
+  --red-main:    #8b0000   (nav háttér)
+  --red-light:   #c0392b   (main háttér)
+  --red-soft:    #e6b0aa   (content-wrapper)
+  --red-footer:  #641e16   (footer)
+Elrendezés
+  Grid:      .grid { display: grid; grid-template-areas: ... }
+             Területek: "header header" / "nav content" / "footer footer"
+             Oszlopok:  220px (nav) + 1fr (tartalom)
+  Flexbox:   .content-wrapper { display: flex; } – kép + szöveg egymás mellé
+
+Reszponzív oldal
+  max-width: 768px  → egyszeres oszlop, menü felülre, flex-column
+  max-width: 480px  → további méretcsökkentés (font, padding)
+
+Animáció
+  @keyframes fadeDown: header h1 felülről lefele jelenik meg (1.5s)
+
+Átmenetek
+  - Menü hover: background-color + padding-left (0.3s)
+  - Legördülő menü: max-height 0 → 200px (0.35s ease)
+  - Galéria képek: transform scale (0.3s)
+
+Alosztályok
+  a:hover   – piros háttér, eltolódó padding
+  a:visited – halvány rózsaszín szín (#f5b7b1)
+  a:active  – sötétebb piros háttér
+ 
+Árnyékok
+  box-shadow a tartalom dobozra és a profilképre
+  text-shadow a header h1-re
+
+Position
+  nav { position: sticky; top: 0; } – görgetéskor fix navigáció
+
+Fejlesztési lehetőségek
+
+  - JavaScript hozzáadása
+  - Keresési funkció a filmek között
+  - Sötét/világos mód váltó
+  - Több film részletes aloldala
+  - Kontakt/ajánló form
+
+Tesztelt böngészők:
+  - Google Chrome 
+  - Microsoft Edge
+
+Tesztelt nézetek:
+  - Asztali (1920x1080)
+  - Tablet (768px)
+  - Mobiltelefon (375px)
+

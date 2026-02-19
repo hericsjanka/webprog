@@ -1,0 +1,47 @@
+Ingyenes webtárhely szolgáltatók
+
+1. Github pages
+   URL:         https://pages.github.com
+   Tárhely:     1 GB
+   Sávszélesség: 100 GB/hó
+   Saját domain: Igen (CNAME beállítással)
+   HTTPS:        Igen (automatikus)
+   Előnyök:      Nagyon megbízható, Git alapú feltöltés,
+                 jól dokumentált, ingyenes
+   Hátrányok:    Csak statikus oldalak (HTML/CSS/JS)
+
+2. Netlify
+   URL:         https://www.netlify.com
+   Tárhely:     100 GB/hó sávszélesség
+   Saját domain: Igen
+   HTTPS:        Igen (automatikus)
+   Előnyök:      Drag & drop feltöltés, nagyon egyszerű,
+                 azonnali élő előnézet
+   Hátrányok:    Csak statikus oldalak az ingyenes tervben
+
+3. Vercel
+   URL:         https://vercel.com
+   Tárhely:     Korlátlan (ingyenes tervben)
+   Saját domain: Igen
+   HTTPS:        Igen
+   Előnyök:      Gyors, modern, jól integrálódik GitHub-bal
+   Hátrányok:    Elsősorban fejlesztőknek szánt felület
+
+4. Infinityfree
+   URL:         https://infinityfree.com
+   Tárhely:     5 GB
+   Sávszélesség: Korlátlan
+   Saját domain: Igen
+   HTTPS:        Igen
+   Előnyök:      PHP és MySQL is támogatott, cPanel felület,
+                 hagyományos webtárhely élmény
+   Hátrányok:    Reklámok megjelenhetnek, lassabb
+
+5. 000Webshot (Hostinger)
+   URL:         https://www.000webhost.com
+   Tárhely:     300 MB
+   Sávszélesség: Korlátlan
+   Saját domain: Nem (csak aldomain: nev.000webhostapp.com)
+   HTTPS:        Igen
+   Előnyök:      PHP + MySQL, egyszerű kezelőfelület
+   Hátrányok:    Korlátozott tárhely, időnként lassú

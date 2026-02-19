@@ -1,0 +1,22 @@
+Munkanapló
+
+Sorszám  Munkafázis megnevezése              Tervezett idő  Ráfordított idő
+
+1.      Témakeresés                          10 perc        5 perc
+2.      Moodboard készítés                   25 perc        40 perc
+3.      Szöveges tartalom gyűjtése           20 perc        25 perc
+4.      Képek keresése és forrás mentése     15 perc        20 perc
+5.      HTML szerkezet megtervezése          20 perc        15 perc
+6.      Főoldal (Quentin.html) elkészítése   45 perc        60 perc
+7.      Filmek oldal (filmek.html)           30 perc        35 perc
+8.      Galéria oldal (galeria.html)         20 perc        20 perc
+9.      CSS stílusok elkészítése             60 perc        90 perc
+10.     Reszponzív design (@media)           20 perc        25 perc
+11.     Navigáció és legördülő menü          15 perc        20 perc
+12.     Animációk, átmenetek                 15 perc        15 perc
+13.     Tesztelés, hibakeresés               20 perc        30 perc
+14.     Dokumentáció elkészítése             30 perc        35 perc
+15.     Publikálás webtárhelyre              15 perc        –
+
+összesen                                     360 perc       435 perc
+

@@ -1,0 +1,56 @@
+Felhasználói dokumentáció
+
+Általános leírás
+
+Ez a weboldal Quentin Tarantino amerikai filmrendező életét és
+munkásságát mutatja be. Az oldal három aloldalból áll:
+
+  - Főoldal (Quentin.html): életrajz, stílusjegyek
+  - Filmek (filmek.html):   filmográfia, táblázat, előzetes
+  - Galéria (galeria.html): filmes képgaléria
+
+Rendszerkövetelmények
+
+Az oldal megnyitásához szükséges:
+  - Bármely modern böngésző (Chrome, Firefox, Edge, Safari)
+  - Internetkapcsolat (a Google Fonts betöltéséhez)
+  - Minimális képernyőméret: 320px (mobiltelefon)
+
+Megnyitása
+
+1. Keresse meg a Quentin.html fájlt a számítógépén.
+2. Kattintson rá duplán – megnyílik az alapértelmezett böngészőben.
+   vagy
+   Másolja a fájl elérési útját a böngésző címsorába:
+   file:///C:/.../pojektfeladat/Quentin.html
+
+Legördülő menü használata
+
+A bal oldali sávban található a navigációs menü.
+
+  főoldal:    Visszalépés a főoldalra
+  tartalom ▾: Legördülő menü – rámutatásra kinyílik
+               ├─ Filmjei  → Filmek oldal
+               └─ Galéria  → Képgaléria oldal
+
+A legördülő menü automatikusan megjelenik, ha az egeret
+a "Tartalom" menüpontra viszik, és eltűnik onnan elmozdítva.
+
+Galéria
+
+A galéria oldalon filmplakátok és filmes képek láthatók.
+Az egér rámutatáskor a képek enyhén kinagyítódnak.
+
+Videó lejátszása
+
+A Filmek oldalon egy YouTube-beágyazott előzetes található
+(Ponyvaregény trailer). A lejátszáshoz internetkapcsolat szükséges.
+A videó megnyílik és lejátszható közvetlenül az oldalon.
+
+reszponzív megjelenés
+
+Az oldal alkalmazkodik a képernyő méretéhez:
+  - Számítógép:   Kétoszlopos elrendezés (menü + tartalom)
+  - Tablet:       Átmeneti elrendezés
+  - Mobiltelefon: Egyszeres oszlop, menü felülre kerül
+

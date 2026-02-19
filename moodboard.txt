@@ -1,0 +1,33 @@
+moodboard
+
+Név:        Montserrat
+Forrás:     Google Fonts
+Link:       https://fonts.google.com/specimen/Montserrat
+Vastagság:  300 (Light)   – folyószöveghez
+            600 (SemiBold)– menüpontokhoz, kiemelésekhez
+Tartalék:   sans-serif
+
+színpaletta
+
+Elnevezés       szín kód    
+Sötét piros     #5a0f14     
+Fő piros        #8b0000     
+Világos piros   #c0392b     
+Puha piros      #e6b0aa     
+Footer piros    #641e16     
+Hover piros     #b22222     
+Submenu piros   #7a0c0c     
+Fekete          #000000     
+Fehér           #ffffff     
+Látogatott      #f5b7b1     
+
+színátmenet
+
+Header:  linear-gradient(90deg, #5a0f14 → #8b0000)
+
+árnyékok
+
+Tartalom doboz:  box-shadow: 0 0 15px rgba(0,0,0,0.4)
+Profilkép:       box-shadow: 0 0 12px rgba(0,0,0,0.4)
+Header szöveg:   text-shadow: 1px 2px 6px rgba(0,0,0,0.5)
+
